@@ -91,7 +91,7 @@ impl<'a> State<'a> {
         state.handle_tab()?;
         Ok(state)
     }
-
+    
     /// Runs a command and updates the state.
     pub fn run_command(
         &mut self,
